@@ -16,3 +16,7 @@ echo "Factorial of $x is ".factorial($x);
 $ft = "Coffee";
 serve($ft, $n);
 //২.৪ - ফাংশনের রিটার্ন টাইপ ফিক্স করে দেয়া
+function sum(int $x,int $y,int $z):int{
+    return $x+$y+$z;
+}
+echo sum(1,8,5);
